@@ -4,34 +4,57 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width" />
 
-    <title>My page title</title>
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
     <link rel="stylesheet" href="style.css" />
   </head>
 
   <body>
     <!-- Here is our main header that is used across all the pages of our website -->
+   <!--
+    <nav class="topnav">
+        <a href="#about">About Me</a>
+        <a href="#work">Work Experience</a>
+        <a href="#project">Projects</a>
+        <a href="#education">Education</a>
+        <a href="#skill">Skills</a>
+        <a href="#">Contact</a>
 
-    <nav>
-      <ul>
-        <li><a href="#about">About Me</a></li>
-        <li><a href="#work">Work Experience</a></li>
-        <li><a href="#project">Projects</a></li>
-        <li><a href="#education">Education</a></li>
-        <li><a href="#skill">Skills</a></li>
-        <li><a href="#">Contact</a></li>
-      </ul>
+      A Search form is another common non-linear way to navigate through a website.
 
-      <!-- A Search form is another common non-linear way to navigate through a website. -->
+    </nav>-->
 
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse navbar-right">
+          <ul class="nav navbar-nav">
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#work">Work Experience</a></li>
+            <li><a href="#project">Projects</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#skill">Skills</a></li>
+            <li><a href="#">Contact</a></li>
+        </div><!--/.nav-collapse -->
+      </div>
     </nav>
 
     <header>
 
         <h1 id="about">About Me</h1>
-
+        <img src="/Images/photo.jpg">
+        <h2>I'm David Montes,</h2>
         <p>
-          A
+          a Unity developer with a strong focus on game design. Video games are my passion, and I derive great satisfaction from crafting patterns, game loops, and interactive experiences.
         </p>
+        <p>My standout skills lie in organization, determination, and creative problem-solving. These qualities empower me to discover unique solutions for challenges encountered in my personal projects. As a dedicated team player, I enjoy working hard and continuously enhancing my skills.</p>
 
     </header>
 
@@ -39,6 +62,8 @@
     <!-- Here is our page's main content -->
     <main>
       <!-- It contains an article -->
+
+      <!--
       <article>
         <h2 id="work">Work Experience</h2>
 
@@ -49,29 +74,40 @@
 
         <p>
             A
-          </p>
+        </p>
 
       </article>
+      -->
 
       <article>
         <h2 id="project">Projects</h2>
 
-        <h3>Ahorro en el Hogar</h3>
+        <h3>Totopo: Keep Falling</h3>
         <p>
-          A
+          Developing a mobile video game with a small team, that places a strong emphasis on exploring the innovative gameplay design possibilities offered by smartphones. <span style="font-style: italic;">October 2023 - Today</span>
         </p>
 
         <p>
-            A
-          </p>
+          You can see this project here: <a></a>
+        </p>
+
+        <h3>Ahorro en el Hogar</h3>
+        <p>
+          Creating a first-person serious game centered around managing essential services.<span style="font-style: italic;">August 2023 - September 2023</span>
+        </p>
+
+        <p>
+          You can see this project here: <a></a>
+        </p>
 
         <h3>Tiny Farm</h3>
         <p>
-          A
+          
+        Creating a farming video game that explores a simplistic design through visually appealing scenarios and a variety of mechanics. <span style="font-style: italic;"> March 2023 - May 2023</span>
         </p>
 
         <p>
-          A
+          You can see this project here: <a></a>
         </p>
 
       </article>
@@ -81,20 +117,7 @@
 
         <h3>Degree in Digital Design for Interactive Media</h3>
         <p>
-          A
-        </p>
-
-        <p>
-            A
-          </p>
-
-        <h3>Subsection</h3>
-        <p>
-          A
-        </p>
-
-        <p>
-          A
+          Universidad Autónoma de Ciudad Juárez <span style="font-style: italic;">2019-2024</span>
         </p>
 
       </article>
@@ -154,6 +177,16 @@
 
       </article>
 
+      <article>
+        <h2 id="contact">Contact Me</h2>
+
+        <form action="mailto:davidmontes.42@hotmail.com" method="post" enctype="text/plain">
+          <i class="fa-solid fa-envelope"></i>
+          <input type="submit" value="Send">
+       </form>
+
+      </article>
+
     </main>
 
     <!-- And here is our main footer that is used across all the pages of our website -->
@@ -163,3 +196,7 @@
     </footer>
   </body>
 </html>
+
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
