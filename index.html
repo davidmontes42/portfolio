@@ -11,41 +11,32 @@
     <link rel="stylesheet" href="style.css" />
     
   </head>
-  <header>
-
-    <h1 id="about">About Me</h1>
-    <table>
-      <td>
-        <img src="Images/photo.jpg" margin="10px" width="200px" height="200px" style="margin: 10px;">
+  <header class="presentation">
+    
+    <div class="modal-body row" style="padding: 10px; margin: 1%; background-color:  #567273; color:rgb(234, 234, 234)">
+      <h1 id="about" style="margin-left: 1%;">About Me</h1>
+      <div class="col-md-3">
+        <!-- Your first column here -->
         
-      </td>
-      <td>
+        <img src="Images/photo.jpg" margin="10px" width="200px" height="200px" style="margin: 10px; border-radius: 100px; margin-left: 10%;">
+      </div>
+      <div class="col-md-7">
+        <!-- Your second column here -->
         <h2>I'm David Montes,</h2>
         <p>
           a Unity developer with a strong focus on game design. Video games are my passion, and I derive great satisfaction from crafting patterns, game loops, and interactive experiences.
         </p>
         <p>My standout skills lie in organization, determination, and creative problem-solving. These qualities empower me to discover unique solutions for challenges encountered in my personal projects. 
           I'm a dedicated team player, and I enjoy working hard and continuously enhancing my skills.</p>
+      </div>
+    </div>
     
-      </td>
-    </table>
+
+        
+
     
 </header>
   <body>
-    <!-- Here is our main header that is used across all the pages of our website -->
-   <!--
-    <nav class="topnav">
-        <a href="#about">About Me</a>
-        <a href="#work">Work Experience</a>
-        <a href="#project">Projects</a>
-        <a href="#education">Education</a>
-        <a href="#skill">Skills</a>
-        <a href="#">Contact</a>
-
-      A Search form is another common non-linear way to navigate through a website.
-
-    </nav>-->
-
     <nav class="navbar navbar-default navbar-fixed-top">
       <div class="container">
         <div class="navbar-header">
@@ -70,9 +61,10 @@
       </div>
     </nav>
 
-    <!-- Here is our page's main content -->
-    <main>
-      <!-- It contains an article -->
+    <div class="modal-body row">
+      <div class="col-md-6">
+        <!-- Your first column here -->
+        <!-- It contains an article -->
 
       <!--
       <article>
@@ -134,78 +126,76 @@
         </p>
 
       </article>
+      </div>
 
-      <article>
-        <h2 id="skill">Skills</h2>
+      <div class="col-md-6">
+        <!-- Your second column here -->
+        <article>
+          <h2 id="skill">Skills</h2>
+  
+          <h3>Video Games Technologies and Concepts</h3>
+          <p>
+              <ul>
+                  <li>Unity 2D/3D</li>
+                  <li>Gameplay Design</li>
+                  <li>VR Implementation</li>
+                </ul>
+          </p>
+  
+          <h3>Programming Languages</h3>
+          <p>
+              <ul>
+                  <li>C#</li>
+                  <li>Swift</li>
+                </ul>
+          </p>
+  
+          <h3>Art Technologies</h3>
+          <p>
+              <ul>
+                  <li>Blender</li>
+                  <li>Autodesk Maya</li>
+                  <li>Aseprite</li>
+                  <li>Adobe Illustrator</li>
+                  <li>Adobe Photoshop</li>
+                  <li>Adobe After Effects</li>
+                </ul>
+          </p>
+  
+          <h3>Attitude</h3>
+          <p>
+              <ul>
+                  <li>Strong internal organization</li>
+                  <li>Love to learn</li>
+                  <li>Hard worker</li>
+                  <li>Proactive</li>
+                  <li>Work under pressure</li>
+                  <li>Strong critical thinking</li>
+                </ul>
+          </p>
+  
+          <h3>Management and Others</h3>
+          <p>
+              <ul>
+                  <li>Jira</li>
+                  <li>Adobe Premiere</li>
+                  <li>Adobe Audition</li>
+                  <li>HTML, CSS</li>
+                  <li>Github</li>
+                </ul>
+          </p>
+  
+        </article>
+      </div>
+    </div>
+    <!-- Here is our page's main content -->
+    <article style="padding: 10px; margin: 1%; background-color:  white; color:black">
+      <h2 id="contact">Contact Me</h2>
 
-        <h3>Video Games Technologies and Concepts</h3>
-        <p>
-            <ul>
-                <li>Unity 2D/3D</li>
-                <li>Gameplay Design</li>
-                <li>VR Implementation</li>
-              </ul>
-        </p>
+      <a href=mailto:davidmontes.42@hotmail.com><i class="fa-solid fa-envelope fa-4x"></i></a>
 
-        <h3>Programming Languages</h3>
-        <p>
-            <ul>
-                <li>C#</li>
-                <li>Swift</li>
-              </ul>
-        </p>
+    </article>
 
-        <h3>Art Technologies</h3>
-        <p>
-            <ul>
-                <li>Blender</li>
-                <li>Autodesk Maya</li>
-                <li>Aseprite</li>
-                <li>Adobe Illustrator</li>
-                <li>Adobe Photoshop</li>
-                <li>Adobe After Effects</li>
-              </ul>
-        </p>
-
-        <h3>Attitude</h3>
-        <p>
-            <ul>
-                <li>Strong internal organization</li>
-                <li>Love to learn</li>
-                <li>Hard worker</li>
-                <li>Proactive</li>
-                <li>Work under pressure</li>
-                <li>Strong critical thinking</li>
-              </ul>
-        </p>
-
-        <h3>Management and Others</h3>
-        <p>
-            <ul>
-                <li>Jira</li>
-                <li>Adobe Premiere</li>
-                <li>Adobe Audition</li>
-                <li>HTML, CSS</li>
-                <li>Github</li>
-              </ul>
-        </p>
-
-      </article>
-
-      <article>
-        <h2 id="contact">Contact Me</h2>
-
-        <a href=mailto:davidmontes.42@hotmail.com><i class="fa-solid fa-envelope fa-4x"></i></a>
-
-      </article>
-
-    </main>
-
-    <!-- And here is our main footer that is used across all the pages of our website -->
-
-    <footer>
-      
-    </footer>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>

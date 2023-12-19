@@ -1,5 +1,6 @@
 body {
-    min-height: 2000px;
+    min-height: auto;
+    width: auto;
     padding: 2%;
     padding-top: 70px;
   }
@@ -51,4 +52,17 @@ body {
     margin-top: 3%;
     height: 100px;
     width: 100%;
+  }
+
+  article{
+    padding: 10px;
+    padding: 1%;
+    margin: 10px;
+    padding-top: .5%;
+    background: #567273;
+    color: rgb(234, 234, 234);
+  }
+
+  a{
+    color: #735669;
   }
