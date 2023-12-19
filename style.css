@@ -53,6 +53,10 @@ body {
     color: #d5afc8;
   }
 
+  a:hover{
+    color: #fdace0;
+  }
+
   @media only screen and (min-width: 300px) {
     h2{
         padding-top: 15%;
