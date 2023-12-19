@@ -30,20 +30,6 @@ body {
     padding-top: 3%;
   }
 
-
-
-  @media only screen and (min-width: 300px) {
-    h2{
-        padding-top: 15%;
-    }
-  }
-
-  @media only screen and (min-width: 600px) {
-    h2{
-        padding-top: 3%;
-    }
-  }
-
   #contact{
     padding-top: 1%;
   }
@@ -66,3 +52,16 @@ body {
   a{
     color: #735669;
   }
+
+  @media only screen and (min-width: 300px) {
+    h2{
+        padding-top: 15%;
+    }
+  }
+
+  @media only screen and (min-width: 600px) {
+    h2{
+        padding-top: 3%;
+    }
+  }
+
